@@ -11,7 +11,7 @@
 # Remember to set `main_package_path` to your specific entry point.
 # For example, `main_package_path = ./cmd/example` indicates that your entry point is located at `./cmd/example/main.go`.
 main_package_path = .
-binary_name = example
+binary_name = knotworks
 
 # For more detailed documentation, please visit https://www.gnu.org/software/make/manual/html_node/Introduction.html
 

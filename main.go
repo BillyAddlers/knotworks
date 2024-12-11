@@ -1,7 +1,7 @@
 package main
 
 import (
-	cmd "example/cmd/example"
+	cmd "github.com/billyaddlers/knotworks/cmd/example"
 )
 
 /**

@@ -3,7 +3,7 @@ package example_test
 import (
 	"testing"
 
-	"example/pkg/example"
+	"github.com/billyaddlers/knotworks/pkg/example"
 )
 
 /**

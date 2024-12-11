@@ -3,7 +3,7 @@ package example
 import (
 	"fmt"
 
-	"example/pkg/example"
+	"github.com/billyaddlers/knotworks/pkg/example"
 )
 
 /**

@@ -10,7 +10,7 @@
 # Feel free to customize this file to match your project structure, dependencies, and build process!
 
 # WARN: Change your `APP_NAME` according to the one used in `Makefile`.
-ARG APP_NAME=example
+ARG APP_NAME=knotworks
 
 # NOTE: STAGE 1: Build the Go binary and run tests using the Makefile.
 #
@@ -60,7 +60,7 @@ COPY --from=builder /tmp/bin/${APP_NAME} .
 # EXPOSE 8080
 
 # Run the application.
-ENTRYPOINT [ "./example" ]
+ENTRYPOINT [ "./knotworks" ]
 
 # You can use the line below to provide parameter into your application.
 # CMD ["--debug"]
